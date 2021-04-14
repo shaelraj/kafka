@@ -4,7 +4,6 @@
 package com.javamonks;
 
 import java.util.Properties;
-import java.util.stream.IntStream;
 
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
