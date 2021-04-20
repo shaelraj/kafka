@@ -3,10 +3,6 @@
  */
 package com.javamonks;
 
-import java.time.Duration;
-import java.util.Arrays;
-import java.util.Properties;
-
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -15,13 +11,17 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.time.Duration;
+import java.util.Arrays;
+import java.util.Properties;
+
 /**
  * @author shaelraj
  *
  */
 public class ConsumerDemo {
 
-	private static final Logger LOG = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
+	private static final Logger LOG = LoggerFactory.getLogger(ConsumerDemo.class);
 
 	/**
 	 * @param args
